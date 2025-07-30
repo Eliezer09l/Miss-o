@@ -1,11 +1,18 @@
 :root{
-    --cor-fundo:#f7f1f1;
+    --cor-fundo:#2a15e2d3c7;
     --cor-principal:#fd0c0c;
-    --cor-secundaria:#000000;
-    --cor-destaque:#000000;
-    --cor-texto:#000000;
+    --cor-secundaria:hsl(0, 18%, 93%);
+    --cor-destaque:hsl(251, 94%, 52%);
+    --cor-texto:hwb(66 24% 0%);
 }
 body{
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-heinght:100vh;
 }
