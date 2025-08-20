@@ -1,5 +1,5 @@
 :root{
-    --cor-fundo:#2a15e2d3c7;
+    --cor-fundo:#000000fa;
     --cor-principal:#fd0c0c;
     --cor-secundaria:hsl(0, 18%, 93%);
     --cor-destaque:hsl(251, 94%, 52%);
@@ -14,5 +14,5 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    min-heinght:100vh;
+    min-height:100vh;
 }

@@ -1,14 +1,15 @@
-const caixaPrincipal = document. querySelector(". caixa-principal");
-const caixaPerguntas = document. querySelector(". caixa-perguntas");
-const caixaAlternativas = document. querySelector(". caixa-alternativas");
-const caixaResultado = document. querySelector(". caixa-resultado");
-const textoResultado = document. querySelector(". texto-resultado");
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas=[
     {
         enunciado: "Quantos times participaram do Mundial de Clubes?",
         alternativas:[
-            {texto: "32",
+            {
+                texto: "32",
                 afirmação:"Resposta correta",
                 pontos:1
             },
