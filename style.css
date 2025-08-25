@@ -1,10 +1,10 @@
 :root{
-    --cor-fundo:#000000fa;
-    --cor-principal:#fd0c0c;
+    --cor-fundo:#c55e09ea;
+    --cor-principal:#131111;
     --cor-secundaria:hsl(0, 18%, 93%);
     --cor-destaque:hsl(251, 94%, 52%);
     --cor-texto:hwb(66 24% 0%);
-}
+}.
 body{
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -15,4 +15,18 @@ body{
     justify-content: center;
     align-items: center;
     min-height:100vh;
+}
+.caixa-principal{
+    background-color: var(--cor-principal);
+    opacity: 0.8;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+h1{
+    color: var(--cor-destaque);
 }
